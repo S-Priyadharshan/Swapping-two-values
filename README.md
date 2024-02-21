@@ -19,6 +19,12 @@ Print both the values it would be interchanged
 End the program
 ## PROGRAM:
 
+a=int(input())
+b=int(input())
+temp=a
+a=b
+b=temp
+print("Swapped values are: {} {}".format(a,b))
 
 
 ## RESULT:
